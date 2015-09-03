@@ -40,13 +40,14 @@ header .navbar-default .navbar-nav a {
 
 header .navbar-default .navbar-nav a:hover {
   color: #FFFFFF !important;
+  font-weight: 700;
 }
 
 header .navbar-default .navbar-nav .active a {
   font-weight: 700;
   color: #FFFFFF !important;
   background: transparent !important;
-  border-bottom: 4px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
   text-shadow: none;
 }
 
@@ -192,6 +193,10 @@ header .inbody .navbar-brand span.subhead {
 
 
 /**  Page **/
+
+.page {
+  padding-bottom: 20px;
+}
 
 .page h2 {
   text-align: center;
@@ -340,7 +345,7 @@ and (max-width: 768px) {
 }
 
 #lastSupperh2 {
-  padding: 100px 0;
+  padding: 100px 15px;
   font-style: italic;
 }
 
