@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+h2 {
+  padding: 50px 0;
+}
+
 /**  Header Navigation **/
 
 header .navbar {
@@ -29,25 +33,26 @@ header .navbar-default {
 
 header .navbar-default .navbar-nav a {
   font-family: "Libre Baskerville", serif;
-  color: white;
+  color: #FFFFFF !important;
+  font-size: .75em;
   padding: 5px 8px;
 }
 
 header .navbar-default .navbar-nav a:hover {
-  color: #7FDEFF;
+  color: #FFFFFF !important;
 }
 
 header .navbar-default .navbar-nav .active a {
   font-weight: 700;
-  color: #7FDEFF;
-  background: transparent;
-  border-bottom: 4px solid #7FDEFF;
+  color: #FFFFFF !important;
+  background: transparent !important;
+  border-bottom: 4px solid #FFFFFF;
   text-shadow: none;
 }
 
 header .navbar-default .navbar-nav .active a:hover {
-  color: #E4002B;
-  background: transparent;
+  color: #FFFFFF !important;
+  background: transparent !important;
   text-shadow: none;
 }
 
@@ -68,33 +73,43 @@ header .navbar-brand h1 {
   padding-left: 105px;
 }
 
+/*fix this*/
 header .navbar-brand span.subhead {
   display: block;
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", serif;
   font-size: .6em;
   font-weight: 100;
 }
 
 /**  Navbar Toggle **/
 header .navbar-toggle {
-  background-color: #E4002B;
+  background-color: #FFFFFF;
 }
 
 header .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: #7FDCFF;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #09C0FF;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
 }
 
 @media only screen
 and (max-width: 768px) {
   header .navbar-collapse.in {
-    background-color: rgba(0,0,0, .5);
+    background: rgba(127,220,255,.9);
   }
 }
+
 
 /**  nav inbody **/
 
 header .inbody {
-  background: rgba(127,220,255,.5);
+  background: rgba(127,220,255,.9);
 }
 
 header .navbar.inbody {
@@ -177,9 +192,6 @@ header .inbody .navbar-brand span.subhead {
 
 
 /**  Page **/
-.page {
-  padding: 50px 0;
-}
 
 .page h2 {
   text-align: center;
@@ -187,10 +199,13 @@ header .inbody .navbar-brand span.subhead {
 }
 
 /**  Page -- Mission **/
+
 #mission {
-/*  background-color: #E4D29D;*/
   background-image: linear-gradient(to bottom, #FFFFFF, #ffde84);
-  /*border-top: 20px solid rgba(238, 200, 86, .5);*/
+}
+
+#mission h2 {
+  font-style: italic;
 }
 
 /**  Page -- flavors **/
@@ -227,14 +242,13 @@ and (max-width: 768px) {
 /**  Page -- Testimonials **/
 
 #testimonials {
-  background-image: url(../images/testimonial-background.jpg);
-  background-color: rgba(255,255,255,.5);
   padding: 0;
-
 }
 
-#testimonials h2 {
-  padding: 50px 0 25px 0;
+.testimonialsH2Background {
+  background-image: linear-gradient(to bottom, #ffde84, #FFFFFF);
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 #testimonials blockquote {
@@ -242,7 +256,7 @@ and (max-width: 768px) {
   padding: 0;
   border-left: none;
   min-height: 500px;
-  position: relative;
+  /*position: relative;*/
 }
 
 #testimonials blockquote .quote {
@@ -251,6 +265,7 @@ and (max-width: 768px) {
   position: absolute;
   bottom: 0;
   width: 75%;
+  min-height: 110px;
   font-weight: 400;
   border-radius: 0 50px 0 0;
 }
@@ -260,22 +275,22 @@ and (max-width: 768px) {
 }
 
 #testimonials #noah {
-  background: url(../images/testimonial-noah.jpg) no-repeat center center;
+  background: url(../images/testimonial-noah.jpg) no-repeat center top;
   background-size: cover;
 }
 
 #testimonials #samson {
-  background: url(../images/testimonial-samson.jpg) no-repeat center center;
+  background: url(../images/testimonial-samson.jpg) no-repeat center top;
   background-size: cover;
 }
 
 #testimonials #moses {
-  background: url(../images/testimonial-moses.jpg) no-repeat center center;
+  background: url(../images/testimonial-moses.jpg) no-repeat center top;
   background-size: cover;
 }
 
 #testimonials #wisemen {
-  background: url(../images/testimonial-wisemen.jpg) no-repeat center center;
+  background: url(../images/testimonial-wisemen.jpg) no-repeat center top;
   background-size: cover;
 }
 
@@ -320,19 +335,20 @@ and (max-width: 768px) {
 /**  Last Supper **/
 
 #lastSupper {
-  padding-top: 50px; 
+  background-color: #7FDEFF;
+  padding-bottom: 0px; 
 }
 
 #lastSupperh2 {
-  padding: 25px 0;
+  padding: 100px 0;
+  font-style: italic;
 }
 
 /**  Page -- about **/
 
 #about {
   background: rgba(127,220,255,.5);
- /* background-image: linear-gradient(to bottom, #FFFFFF, #002159);*/
-  /*border-top: 20px solid rgba(0, 33, 89, .5);*/
+  background-image: linear-gradient(to bottom, #FFFFFF, #7FDEFF);
 }
 
 .person {
@@ -360,41 +376,40 @@ and (max-width: 768px) {
 /**  Footer **/
 
 footer {
-  background: rgba(127,220,255,.5);
+  background: #FFFFFF;
   color: #000000;
   font-size: .8em;
   padding: 20px 0 40px 0;
 }
 
-footer a {
+/*footer a {
   color: #E0E6AE;
-}
+}*/
 
-footer a:hover {
+/*footer a:hover {
   color: #FFC72C !important;
-}
+}*/
 
-footer .phone {
+/*footer .phone {
   font-size: 1.4em;
   font-weight: 700;
-  color: #FFFFFF;
-}
+}*/
 
-footer .navbar {
+/*footer .navbar {
   margin-bottom: 0;
   min-height: 0;
-}
+}*/
 
-footer .navbar-default {
+/*footer .navbar-default {
   background-color: transparent;
   border: none;
   margin-right: 40px;
-}
+}*/
 
-footer .navbar-nav>li a {
+/*footer .navbar-nav>li a {
   padding-top: 0;
   padding-bottom: 0;
   text-decoration: underline;
   color: #ffc72c !important;
-}
+}*/
 
