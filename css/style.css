@@ -69,16 +69,16 @@ header .navbar-default .navbar-nav .active a:hover {
 /**  Navbar Brand **/
 
 .logo {
-  background-image: url(../images/LarrysLogo.svg);
+  background-image: url(../images/LarrysLogoHoriz.svg);
   background-repeat: no-repeat;
-  width: 175px;
-  height: 100px;
+  min-width: 250px;
+  height: 65px;
   position: absolute;
-  left: 15px;
+  left: 25px;
   top: 15px;
 }
 
-@media only screen 
+/*@media only screen 
 and (max-width: 768px) {
   .logo { 
   background-image: url(../images/LarrysLogoMini.svg);
@@ -89,8 +89,14 @@ and (max-width: 768px) {
   left: 15px;
   top: 15px;
   }
-}
+}*/
 
+/*header .navbar-brand {
+  background: url(../images/LarrysLogoHoriz.svg);
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+  height: auto;
+}*/
 
 header .navbar-brand h1 {
   color: white;
