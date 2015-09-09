@@ -12,6 +12,10 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+cursor: default;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
@@ -250,7 +254,7 @@ header .inbody .navbar-brand {
 }
 
 #mission article {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #mission h2 {
@@ -448,11 +452,24 @@ footer h3 {
   text-align: center;
   margin-bottom: 10px;
 }
-
+  
 .copyright {
   text-align: center;
   margin-top: 50px;
   
+}
+
+.emailAddress {
+  margin-top: -10px;
+}
+
+.emailAddress>a:link, a:visited, a:active {
+  color: #213047;
+  text-decoration: none;
+}
+
+.emailAddress>a:hover {
+  color: #7FDCFF;
 }
 
 
