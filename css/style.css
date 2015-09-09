@@ -276,9 +276,9 @@ header .inbody .navbar-brand {
 
 #flavors img.icon {
   display: block;
-  width: 80px;
+  width: 200px;
   margin: 0 auto;
-  margin-bottom: 5px;
+  /*margin-bottom: 5px;*/
 }
 
 #flavors h3 {
