@@ -233,7 +233,7 @@ header .inbody .navbar-brand {
 
 /**  Page -- Mission **/
 
-h2.andGodSaid {
+/*h2.andGodSaid {
   
     position: relative;
     z-index: 100;
@@ -243,7 +243,7 @@ h2.andGodSaid {
     text-shadow: 3px 3px 9px #FFF;
     font-weight: 700;
     font-size: 2em;
-}
+}*/
 
 #mission {
   background-image: linear-gradient(to bottom, #FFFFFF, #ffde84);
