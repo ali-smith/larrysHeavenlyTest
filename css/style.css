@@ -278,7 +278,7 @@ header .inbody .navbar-brand {
   display: block;
   width: 200px;
   margin: 0 auto;
-  /*margin-bottom: 5px;*/
+  margin-bottom: 5px;
 }
 
 #flavors h3 {
@@ -393,14 +393,15 @@ and (max-width: 768px) {
 /**  Last Supper **/
 
 #lastSupper {
-  background-color: #7FDEFF;
+  
+  padding-top: 75px;
   padding-bottom: 0px; 
 }
 
-#lastSupperh2 {
+/*#lastSupperh2 {
   padding: 100px 15px;
   font-style: italic;
-}
+}*/
 
 /**  Page -- about **/
 
