@@ -10,6 +10,7 @@ body{
   color: #213047;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -73,7 +74,7 @@ header .navbar-default .navbar-nav .active a:hover {
 /**  Navbar Brand **/
 
 .logo {
-  background-image: url(../images/LarrysLogoHoriz.svg);
+  /*background-image: url(../images/LarrysLogo.png);*/
   background-repeat: no-repeat;
   min-width: 250px;
   height: 65px;
@@ -392,16 +393,31 @@ and (max-width: 768px) {
 
 /**  Last Supper **/
 
-#lastSupper {
-  
-  padding-top: 75px;
-  padding-bottom: 0px; 
-}
+/*.lastSupperdiv {
+  background: url(../images/lastSupperGone.svg) no-repeat left bottom;
+}*/
+
+/*#lastSupper {
+  background-color: #7FDCFF;
+}*/
 
 /*#lastSupperh2 {
-  padding: 100px 15px;
-  font-style: italic;
+  background-color: #7FDCFF;
 }*/
+
+
+.divOne {
+  background-color: #7FDCFF;
+  width: 49%;
+  min-height: 300px;
+}
+
+.divTwo {
+  background-color: #ffde84;
+  width: 49%;
+  min-height: 300px;
+}
+
 
 /**  Page -- about **/
 
