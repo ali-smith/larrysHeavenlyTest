@@ -277,7 +277,7 @@ header .inbody .navbar-brand {
 
 #flavors img.icon {
   display: block;
-  width: 200px;
+  width: 100px;
   margin: 0 auto;
   margin-bottom: 5px;
 }
@@ -297,6 +297,16 @@ and (max-width: 768px) {
   }
 }
 
+/**  Page -- Ingredients **/
+
+#ingredients {
+  background: url("../images/bible1500.png") no-repeat center center;
+  background-size: cover;
+}
+
+.ingredientBox {
+  background-color: white;
+}
 
 /**  Page -- Testimonials **/
 
@@ -393,29 +403,18 @@ and (max-width: 768px) {
 
 /**  Last Supper **/
 
-/*.lastSupperdiv {
-  background: url(../images/lastSupperGone.svg) no-repeat left bottom;
-}*/
-
-/*#lastSupper {
-  background-color: #7FDCFF;
-}*/
-
-/*#lastSupperh2 {
-  background-color: #7FDCFF;
-}*/
-
-
-.divOne {
-  background-color: #7FDCFF;
-  width: 49%;
-  min-height: 300px;
+#lastSupper {
+  margin-top: 75px;
 }
 
-.divTwo {
-  background-color: #ffde84;
-  width: 49%;
-  min-height: 300px;
+#lastSupperRow {
+  background-color: #7FDCFF;
+}
+
+#lastSupperh2 {
+  font-style: italic;
+  padding: 15%;
+  font-size: 2em;
 }
 
 
