@@ -302,10 +302,28 @@ and (max-width: 768px) {
 #ingredients {
   background: url("../images/bible1500.png") no-repeat center center;
   background-size: cover;
+  padding-bottom: 100px;
 }
 
 .ingredientBox {
-  background-color: white;
+  position: relative;
+}
+
+.scrollWriting {
+  
+}
+
+.ingredientBox p {
+  font-size: 1.2em;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -25%;
+
+}
+
+.ingredientBox p .baskervilleItalic {
+  font-size: 1.5em;
 }
 
 /**  Page -- Testimonials **/
