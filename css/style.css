@@ -313,16 +313,11 @@ and (max-width: 768px) {
   margin-bottom: 30px;
 }
 
-
-.scrollWriting {
-  
-}
-
 .ingredientBox p {
   font-size: 1.1em;
   font-weight: 400;
   position: absolute;
-  top: 25%;
+  top: 28%;
   left: 45%;
   margin-left: -20%;
 
