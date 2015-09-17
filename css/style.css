@@ -314,18 +314,16 @@ and (max-width: 768px) {
 }
 
 .ingredientBox p {
-  font-size: 1.1em;
-  font-weight: 400;
+  font-family: "Libre Baskerville", serif; 
+  font-size: 1.2em;
+  font-weight: 700;
+  font-style: italic;
   position: absolute;
   top: 28%;
-  left: 45%;
-  margin-left: -20%;
-
+  left: 50%;
+  margin-left: -25%;
 }
 
-.ingredientBox p .baskervilleItalic {
-  font-size: 1.4em;
-}
 
 /**  Page -- Testimonials **/
 
