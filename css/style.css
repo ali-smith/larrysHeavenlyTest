@@ -474,6 +474,20 @@ footer {
   margin-top: 50px;
 }
 
+.social ul {
+  text-align: center;
+}
+
+.social li {
+  /*border: 1px solid black;
+*/  display: inline-block;
+  max-width: 60px;
+  margin: 0 10px;
+}
+
+.socialIcon {
+
+}
 
 footer h3 {
   font-family: "Lato", sans-serif;
